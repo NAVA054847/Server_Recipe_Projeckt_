@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Core.Entities;
 
-namespace API.Entities;
+namespace Data;
 
 public partial class DataContext : DbContext
 {

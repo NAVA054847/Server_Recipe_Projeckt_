@@ -5,11 +5,11 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{E83843D9-EF40-43D6-AF32-BAF33C8748F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Services\Service.csproj", "{E83843D9-EF40-43D6-AF32-BAF33C8748F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dtaa", "Dtaa\Dtaa.csproj", "{4177E4A4-C99E-4052-87FB-9C2AF40D726C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Dtaa\Data.csproj", "{4177E4A4-C99E-4052-87FB-9C2AF40D726C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

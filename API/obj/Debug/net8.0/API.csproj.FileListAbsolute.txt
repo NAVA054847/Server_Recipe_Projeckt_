@@ -137,3 +137,7 @@ C:\Users\USER\Desktop\פרוייקטים\Server_Recipe_Projeckt_\API\obj\Debug\n
 C:\Users\USER\Desktop\פרוייקטים\Server_Recipe_Projeckt_\API\obj\Debug\net8.0\API.pdb
 C:\Users\USER\Desktop\פרוייקטים\Server_Recipe_Projeckt_\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\USER\Desktop\פרוייקטים\Server_Recipe_Projeckt_\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\USER\Desktop\פרוייקטים\Server_Recipe_Projeckt_\API\bin\Debug\net8.0\Data.dll
+C:\Users\USER\Desktop\פרוייקטים\Server_Recipe_Projeckt_\API\bin\Debug\net8.0\Service.dll
+C:\Users\USER\Desktop\פרוייקטים\Server_Recipe_Projeckt_\API\bin\Debug\net8.0\Data.pdb
+C:\Users\USER\Desktop\פרוייקטים\Server_Recipe_Projeckt_\API\bin\Debug\net8.0\Service.pdb

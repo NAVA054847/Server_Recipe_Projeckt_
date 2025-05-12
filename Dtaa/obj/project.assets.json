@@ -4041,9 +4041,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\Dtaa\\Dtaa.csproj",
-      "projectName": "Dtaa",
-      "projectPath": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\Dtaa\\Dtaa.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\Dtaa\\Data.csproj",
+      "projectName": "Data",
+      "projectPath": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\Dtaa\\Data.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\Dtaa\\obj\\",
       "projectStyle": "PackageReference",

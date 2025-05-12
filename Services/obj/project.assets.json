@@ -4041,9 +4041,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\Services\\Services.csproj",
-      "projectName": "Services",
-      "projectPath": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\Services\\Service.csproj",
+      "projectName": "Service",
+      "projectPath": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\Services\\Service.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\Services\\obj\\",
       "projectStyle": "PackageReference",

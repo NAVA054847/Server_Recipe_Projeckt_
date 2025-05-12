@@ -1,9 +1,22 @@
+using Core.Repositories;
+using Core.Services;
+using Core.Entities;
+using Data.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Service;
 using System.Text.Json.Serialization;
+using API;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+
+
+//הזרקת התלויות
+builder.Services.AddScoped<IUserService,UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 
 //אני הוספתי בשביל שלא יהיה מצב של רקורסיה
 builder.Services.AddControllers().AddJsonOptions(options => {
@@ -12,11 +25,22 @@ builder.Services.AddControllers().AddJsonOptions(options => {
 });
 
 
+//ניסוי
+builder.Services.AddDbContext<Data.DataContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MyDB")));
+
+
 
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+//ניסוי
+//builder.Services.AddDbContext<Data.Repositories.DataContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
 
