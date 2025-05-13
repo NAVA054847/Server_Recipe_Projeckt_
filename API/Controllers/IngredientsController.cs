@@ -1,5 +1,6 @@
 ﻿using Core.Entities;
 using Core.Repositories;
+using Core.Services;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -10,11 +11,12 @@ namespace API.Controllers
     [ApiController]
     public class IngredientsController : ControllerBase
     {
-     private readonly   IIngredientsRepository _ingredientsRepository;
 
-        public IngredientsController(IIngredientsRepository ingredientsRepository)
+     private readonly  IIngredientsService _ingredientsService;
+
+        public IngredientsController(IIngredientsService ingredientsService)
         {
-            _ingredientsRepository = ingredientsRepository;
+            _ingredientsService = ingredientsService;
         }
 
 
@@ -22,7 +24,7 @@ namespace API.Controllers
         [HttpGet("GetAll")]
         public List<IngredientsTable> Get()
         {
-            return _ingredientsRepository.GetAllIngredients();
+            return _ingredientsService.GetAllIngredients();
         }
 
         // GET api/<IngredientsController>/5
@@ -36,7 +38,7 @@ namespace API.Controllers
         [HttpPost ("post")]
         public void Post([FromBody] IngredientsTable ingredients)
         {
-            _ingredientsRepository.AddIngredients(ingredients);
+            _ingredientsService.AddIngredients(ingredients);
         }
 
         //// PUT api/<IngredientsController>/5

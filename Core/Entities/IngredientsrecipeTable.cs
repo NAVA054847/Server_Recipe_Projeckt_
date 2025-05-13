@@ -11,8 +11,5 @@ public partial class IngredientsrecipeTable
 
     public int? IdIngredientsIngredientsRecipe { get; set; }
 
-    public int? UnitsIngredientsRecipe { get; set; }
-
-
-
+    public string? UnitsIngredientsRecipe { get; set; }
 }

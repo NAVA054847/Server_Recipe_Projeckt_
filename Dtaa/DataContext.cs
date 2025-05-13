@@ -49,8 +49,12 @@ public partial class DataContext : DbContext
 
             entity.Property(e => e.IdIngredientsRecipe).HasColumnName("Id_IngredientsRecipe");
             entity.Property(e => e.IdIngredientsIngredientsRecipe).HasColumnName("IdIngredients_IngredientsRecipe");
-            entity.Property(e => e.IdRecipeIngredientsRecipe).HasColumnName("IdRecipe_IngredientsRecipe");
-            entity.Property(e => e.UnitsIngredientsRecipe).HasColumnName("Units_IngredientsRecipe");
+            entity.Property(e => e.IdRecipeIngredientsRecipe)
+                .HasMaxLength(50)
+                .HasColumnName("IdRecipe_IngredientsRecipe");
+            entity.Property(e => e.UnitsIngredientsRecipe)
+                .HasMaxLength(50)
+                .HasColumnName("Units_IngredientsRecipe");
         });
 
         modelBuilder.Entity<RecipeTable>(entity =>

@@ -17,9 +17,6 @@ namespace Data.Repositories
            _context = context;
         }
 
-
-
-
         public void AddIngredients(IngredientsTable ingredients)
         {
            _context.IngredientsTables.Add(ingredients);

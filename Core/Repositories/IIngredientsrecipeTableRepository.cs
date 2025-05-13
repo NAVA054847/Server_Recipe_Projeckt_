@@ -9,5 +9,9 @@ namespace Core.Repositories
 {
     public interface IIngredientsrecipeTableRepository
     {
+
+        List<IngredientsrecipeTable> GetIngredientsByRecipeId(int id);
+
+        void AddIngrediets(int id, List<int>ingredients);
     }
 }
