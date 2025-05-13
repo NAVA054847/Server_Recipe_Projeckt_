@@ -9,5 +9,7 @@ namespace Core.Services
 {
     public interface IIngredientsService
     {
+        List<IngredientsTable> GetAllIngredients();
+        void AddIngredients(IngredientsTable ingredients);
     }
 }

@@ -3,79 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E83843D9-EF40-43D6-AF32-BAF33C8748F9}|Services\\Service.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E83843D9-EF40-43D6-AF32-BAF33C8748F9}|Services\\Service.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\api\\controllers\\ingredientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|solutionrelative:api\\controllers\\ingredientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4177E4A4-C99E-4052-87FB-9C2AF40D726C}|Dtaa\\Data.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\dtaa\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4177E4A4-C99E-4052-87FB-9C2AF40D726C}|Dtaa\\Data.csproj|solutionrelative:dtaa\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E83843D9-EF40-43D6-AF32-BAF33C8748F9}|Services\\Service.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\services\\ingredientsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83843D9-EF40-43D6-AF32-BAF33C8748F9}|Services\\Service.csproj|solutionrelative:services\\ingredientsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|solutionrelative:core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|solutionrelative:core\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\core\\repositories\\iingredientsrecipetablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|solutionrelative:core\\repositories\\iingredientsrecipetablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\core\\entities\\ingredientsrecipetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|solutionrelative:core\\entities\\ingredientsrecipetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\core\\repositories\\iingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|solutionrelative:core\\repositories\\iingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\core\\repositories\\ireciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|solutionrelative:core\\repositories\\ireciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\core\\services\\iingredientsrecipetableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|solutionrelative:core\\services\\iingredientsrecipetableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4177E4A4-C99E-4052-87FB-9C2AF40D726C}|Dtaa\\Data.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\dtaa\\repositories\\ingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4177E4A4-C99E-4052-87FB-9C2AF40D726C}|Dtaa\\Data.csproj|solutionrelative:dtaa\\repositories\\ingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\core\\services\\iingredientsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|solutionrelative:core\\services\\iingredientsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\core\\repositories\\iingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|solutionrelative:core\\repositories\\iingredientsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\api\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|solutionrelative:api\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83843D9-EF40-43D6-AF32-BAF33C8748F9}|Services\\Service.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\services\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E83843D9-EF40-43D6-AF32-BAF33C8748F9}|Services\\Service.csproj|solutionrelative:services\\recipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\core\\services\\irecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|solutionrelative:core\\services\\irecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\AppData\\Local\\SourceServer\\6df771aa6b0aba989a2db6f1069d1a549964717b2c48ce65068f37ca976cd104\\API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4177E4A4-C99E-4052-87FB-9C2AF40D726C}|Dtaa\\Data.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\dtaa\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4177E4A4-C99E-4052-87FB-9C2AF40D726C}|Dtaa\\Data.csproj|solutionrelative:dtaa\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1BCA0C5C-9114-4C1D-A142-9901D5756BA3}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E83843D9-EF40-43D6-AF32-BAF33C8748F9}|Services\\Service.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\services\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E83843D9-EF40-43D6-AF32-BAF33C8748F9}|Services\\Service.csproj|solutionrelative:services\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\core\\entities\\recipetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|solutionrelative:core\\entities\\recipetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\core\\entities\\usertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -84,6 +45,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\core\\entities\\ingredientstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B5BD6B8-6C91-415D-A60A-FD44B5EE612E}|Core\\Core.csproj|solutionrelative:core\\entities\\ingredientstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4177E4A4-C99E-4052-87FB-9C2AF40D726C}|Dtaa\\Data.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\dtaa\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4177E4A4-C99E-4052-87FB-9C2AF40D726C}|Dtaa\\Data.csproj|solutionrelative:dtaa\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E83843D9-EF40-43D6-AF32-BAF33C8748F9}|Services\\Service.csproj|c:\\users\\user\\desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\server_recipe_projeckt_\\services\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E83843D9-EF40-43D6-AF32-BAF33C8748F9}|Services\\Service.csproj|solutionrelative:services\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -93,76 +62,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IIngredientsService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Services\\IIngredientsService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\IIngredientsService.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Services\\IIngredientsService.cs",
-              "RelativeToolTip": "Core\\Services\\IIngredientsService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:09:24.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Services\\IUserService.cs",
-              "RelativeToolTip": "Core\\Services\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T16:07:51.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\AppData\\Local\\SourceServer\\6df771aa6b0aba989a2db6f1069d1a549964717b2c48ce65068f37ca976cd104\\API\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\6df771aa6b0aba989a2db6f1069d1a549964717b2c48ce65068f37ca976cd104\\API\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\AppData\\Local\\SourceServer\\6df771aa6b0aba989a2db6f1069d1a549964717b2c48ce65068f37ca976cd104\\API\\Program.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\6df771aa6b0aba989a2db6f1069d1a549964717b2c48ce65068f37ca976cd104\\API\\Program.cs [Read Only]",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAqwCIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T14:00:22.068Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "API\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAmwCIAAAAJAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAiwCAAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T13:13:54.824Z",
+              "WhenOpened": "2025-05-13T12:49:50.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Services\\UserService.cs",
-              "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAmwA4AAAAAAAAA",
+              "Title": "IngredientsController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\Controllers\\IngredientsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\IngredientsController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\Controllers\\IngredientsController.cs",
+              "RelativeToolTip": "API\\Controllers\\IngredientsController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAYwCAAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:50:59.001Z",
+              "WhenOpened": "2025-05-13T12:44:32.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IngredientsService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Services\\IngredientsService.cs",
+              "RelativeDocumentMoniker": "Services\\IngredientsService.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Services\\IngredientsService.cs",
+              "RelativeToolTip": "Services\\IngredientsService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:41:32.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IngredientsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Dtaa\\Repositories\\IngredientsRepository.cs",
+              "RelativeDocumentMoniker": "Dtaa\\Repositories\\IngredientsRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Dtaa\\Repositories\\IngredientsRepository.cs",
+              "RelativeToolTip": "Dtaa\\Repositories\\IngredientsRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:33:35.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IIngredientsService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Services\\IIngredientsService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\IIngredientsService.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Services\\IIngredientsService.cs",
+              "RelativeToolTip": "Core\\Services\\IIngredientsService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:30:43.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IIngredientsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Repositories\\IIngredientsRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Repositories\\IIngredientsRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Repositories\\IIngredientsRepository.cs",
+              "RelativeToolTip": "Core\\Repositories\\IIngredientsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:28:47.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "API\\Controllers\\RecipeController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAiwCsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:58:52.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Services\\RecipeService.cs",
+              "RelativeDocumentMoniker": "Services\\RecipeService.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Services\\RecipeService.cs",
+              "RelativeToolTip": "Services\\RecipeService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:48:38.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRecipeService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Services\\IRecipeService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\IRecipeService.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Services\\IRecipeService.cs",
+              "RelativeToolTip": "Core\\Services\\IRecipeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:42:55.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IngredientsTable.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Entities\\IngredientsTable.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\IngredientsTable.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Entities\\IngredientsTable.cs",
+              "RelativeToolTip": "Core\\Entities\\IngredientsTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T20:59:46.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserTable.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Entities\\UserTable.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\UserTable.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Entities\\UserTable.cs",
+              "RelativeToolTip": "Core\\Entities\\UserTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T20:43:09.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Dtaa\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Dtaa\\Repositories\\UserRepository.cs",
@@ -170,203 +217,19 @@
               "RelativeToolTip": "Dtaa\\Repositories\\UserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:38:46.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T12:38:46.64Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Dtaa\\DataContext.cs",
-              "RelativeDocumentMoniker": "Dtaa\\DataContext.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Dtaa\\DataContext.cs",
-              "RelativeToolTip": "Dtaa\\DataContext.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAUAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:37:14.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Service",
+              "DocumentIndex": 12,
+              "Title": "Service.csproj",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Services\\Service.csproj",
               "RelativeDocumentMoniker": "Services\\Service.csproj",
               "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Services\\Service.csproj",
               "RelativeToolTip": "Services\\Service.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-12T12:37:05.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IRecipeService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Services\\IRecipeService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\IRecipeService.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Services\\IRecipeService.cs",
-              "RelativeToolTip": "Core\\Services\\IRecipeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:13:45.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IIngredientsrecipeTableService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Services\\IIngredientsrecipeTableService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\IIngredientsrecipeTableService.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Services\\IIngredientsrecipeTableService.cs",
-              "RelativeToolTip": "Core\\Services\\IIngredientsrecipeTableService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:12:24.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IIngredientsrecipeTableRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Repositories\\IIngredientsrecipeTableRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Repositories\\IIngredientsrecipeTableRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Repositories\\IIngredientsrecipeTableRepository.cs",
-              "RelativeToolTip": "Core\\Repositories\\IIngredientsrecipeTableRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:11:26.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IIngredientsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Repositories\\IIngredientsRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Repositories\\IIngredientsRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Repositories\\IIngredientsRepository.cs",
-              "RelativeToolTip": "Core\\Repositories\\IIngredientsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:10:49.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IRecipeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Repositories\\IRecipeRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Repositories\\IRecipeRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Repositories\\IRecipeRepository.cs",
-              "RelativeToolTip": "Core\\Repositories\\IRecipeRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:10:08.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Core\\Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "Core\\Repositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:09:33.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "UserTable.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Entities\\UserTable.cs",
-              "RelativeDocumentMoniker": "Core\\Entities\\UserTable.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Entities\\UserTable.cs",
-              "RelativeToolTip": "Core\\Entities\\UserTable.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAzwAMAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:08:51.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RecipeTable.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Entities\\RecipeTable.cs",
-              "RelativeDocumentMoniker": "Core\\Entities\\RecipeTable.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Entities\\RecipeTable.cs",
-              "RelativeToolTip": "Core\\Entities\\RecipeTable.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAsAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:08:45.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IngredientsTable.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Entities\\IngredientsTable.cs",
-              "RelativeDocumentMoniker": "Core\\Entities\\IngredientsTable.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Entities\\IngredientsTable.cs",
-              "RelativeToolTip": "Core\\Entities\\IngredientsTable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:08:42.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IngredientsrecipeTable.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Entities\\IngredientsrecipeTable.cs",
-              "RelativeDocumentMoniker": "Core\\Entities\\IngredientsrecipeTable.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\Core\\Entities\\IngredientsrecipeTable.cs",
-              "RelativeToolTip": "Core\\Entities\\IngredientsrecipeTable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:08:37.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\appsettings.json",
-              "RelativeDocumentMoniker": "API\\appsettings.json",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\appsettings.json",
-              "RelativeToolTip": "API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-12T11:49:09.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAwCcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T11:45:57.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "API.csproj",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\API.csproj",
-              "RelativeDocumentMoniker": "API\\API.csproj",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\\u05E4\u05E8\u05D5\u05D9\u05D9\u05E7\u05D8\u05D9\u05DD\\Server_Recipe_Projeckt_\\API\\API.csproj",
-              "RelativeToolTip": "API\\API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-12T11:42:59.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T12:37:05.383Z"
             }
           ]
         }

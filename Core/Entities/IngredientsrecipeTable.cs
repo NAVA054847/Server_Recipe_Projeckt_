@@ -12,4 +12,7 @@ public partial class IngredientsrecipeTable
     public int? IdIngredientsIngredientsRecipe { get; set; }
 
     public int? UnitsIngredientsRecipe { get; set; }
+
+
+
 }

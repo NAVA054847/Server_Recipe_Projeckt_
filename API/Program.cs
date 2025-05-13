@@ -14,8 +14,19 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 //הזרקת התלויות
+//אני בעצם אומרת כך:
+//כשאתה פוגש ממשק בבנאי מסוג א תממש אותו על מחלקה מסוג ב 
 builder.Services.AddScoped<IUserService,UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IRecipeRepository, RecipeRepository>();
+builder.Services.AddScoped<IRecipeService, RecipeService>();
+builder.Services.AddScoped<IIngredientsService, IngredientsService>();
+builder.Services.AddScoped<IIngredientsRepository, IngredientsRepository>();
+//הזרקה של הבסיס נתונים
+builder.Services.AddDbContext<Data.DataContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MyDB")));
+
+
 
 
 //אני הוספתי בשביל שלא יהיה מצב של רקורסיה
@@ -25,9 +36,6 @@ builder.Services.AddControllers().AddJsonOptions(options => {
 });
 
 
-//ניסוי
-builder.Services.AddDbContext<Data.DataContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("MyDB")));
 
 
 

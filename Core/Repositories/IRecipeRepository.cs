@@ -9,5 +9,8 @@ namespace Core.Repositories
 {
     public interface IRecipeRepository
     {
+        List<RecipeTable> GetAllRecipe();
+        RecipeTable GetRecipeById(int id);
+        void AddRecipe(RecipeTable recipe);
     }
 }
