@@ -22,4 +22,8 @@ public partial class RecipeTable
     public string? InstructionsRecipe { get; set; }
 
     public int? IdUser { get; set; }
+
+    public virtual UserTable? IdUserNavigation { get; set; }
+
+    public virtual ICollection<IngredientsrecipeTable> IngredientsrecipeTables { get; set; } = new List<IngredientsrecipeTable>();
 }

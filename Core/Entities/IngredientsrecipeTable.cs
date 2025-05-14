@@ -12,4 +12,8 @@ public partial class IngredientsrecipeTable
     public int? IdIngredientsIngredientsRecipe { get; set; }
 
     public string? UnitsIngredientsRecipe { get; set; }
+
+    public virtual IngredientsTable? IdIngredientsIngredientsRecipeNavigation { get; set; }
+
+    public virtual RecipeTable? IdRecipeIngredientsRecipeNavigation { get; set; }
 }

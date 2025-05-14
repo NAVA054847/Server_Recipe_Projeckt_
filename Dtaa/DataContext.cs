@@ -5,6 +5,7 @@ using Core.Entities;
 
 namespace Data;
 
+
 public partial class DataContext : DbContext
 {
     public DataContext()
@@ -49,12 +50,18 @@ public partial class DataContext : DbContext
 
             entity.Property(e => e.IdIngredientsRecipe).HasColumnName("Id_IngredientsRecipe");
             entity.Property(e => e.IdIngredientsIngredientsRecipe).HasColumnName("IdIngredients_IngredientsRecipe");
-            entity.Property(e => e.IdRecipeIngredientsRecipe)
-                .HasMaxLength(50)
-                .HasColumnName("IdRecipe_IngredientsRecipe");
+            entity.Property(e => e.IdRecipeIngredientsRecipe).HasColumnName("IdRecipe_IngredientsRecipe");
             entity.Property(e => e.UnitsIngredientsRecipe)
                 .HasMaxLength(50)
                 .HasColumnName("Units_IngredientsRecipe");
+
+            entity.HasOne(d => d.IdIngredientsIngredientsRecipeNavigation).WithMany(p => p.IngredientsrecipeTables)
+                .HasForeignKey(d => d.IdIngredientsIngredientsRecipe)
+                .HasConstraintName("FK_INGREDIENTSRECIPE_TABLE_INGREDIENTS-TABLE");
+
+            entity.HasOne(d => d.IdRecipeIngredientsRecipeNavigation).WithMany(p => p.IngredientsrecipeTables)
+                .HasForeignKey(d => d.IdRecipeIngredientsRecipe)
+                .HasConstraintName("FK_INGREDIENTSRECIPE_TABLE_RECIPE_TABLE");
         });
 
         modelBuilder.Entity<RecipeTable>(entity =>
@@ -82,6 +89,10 @@ public partial class DataContext : DbContext
                 .HasMaxLength(50)
                 .HasColumnName("Name_Recipe");
             entity.Property(e => e.UnitsRecipe).HasColumnName("Units_Recipe");
+
+            entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.RecipeTables)
+                .HasForeignKey(d => d.IdUser)
+                .HasConstraintName("FK_RECIPE_TABLE_USER_TABLE");
         });
 
         modelBuilder.Entity<UserTable>(entity =>
