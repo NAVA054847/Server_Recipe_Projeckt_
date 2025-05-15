@@ -52,10 +52,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//אני הוס]תי בשביל לאפשר גישה מהלקוח לשרת
 
-//ניסוי
-//builder.Services.AddDbContext<Data.Repositories.DataContext>(options =>
-//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        policy => policy.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+});
+
+
 
 
 
@@ -69,7 +76,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+// אני הוספתי בשביל לאפשר גישה מהלקוח לשרת
+app.UseCors("AllowAll");
 app.UseAuthorization();
 
 app.MapControllers();
