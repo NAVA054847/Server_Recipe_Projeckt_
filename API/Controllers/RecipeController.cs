@@ -32,7 +32,7 @@ namespace API.Controllers
         }
 
         // GET api/<RecipeController>/5
-        [HttpGet("GetById{id}")]
+        [HttpGet("{id}")]
         public RecipeTable GetRecipeById(int id)
         {
             return _recipeService.GetRecipeById(id) ;

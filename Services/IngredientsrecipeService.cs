@@ -18,27 +18,29 @@ namespace Service
             _ingredientsrecipeTableRepository = ingredientsrecipeTableRepository;
         }
 
-        //לא לכח לממש!!!
-        //חסר לנו הבנה מה בדיוק צריכה להיות הפפונקציה
-        public void AddIngrediets(int id, List<int> ingredients)
+        
+        public void AddIngrediets(int id, List<Dictionary<int, string>> ingredients)
         {
-            throw new NotImplementedException();
+           _ingredientsrecipeTableRepository.AddIngrediets(id,ingredients);
+
         }
 
-        public List<IngredientsrecipeTable> GetIngredientsByRecipeId(int id)
+
+
+        public List<object> GetIngredientsByRecipeId(int id)
         {
-            List<IngredientsrecipeTable> list = _ingredientsrecipeTableRepository.GetIngredientsByRecipeId(id);
-            
-            List<IngredientsrecipeTable> listreturn = new List<IngredientsrecipeTable>();
+            List<object> list = _ingredientsrecipeTableRepository.GetIngredientsByRecipeId(id);
+
+            //List<object> listreturn = new List<object>();
 
 
-            foreach (var ingredient in list)
-            {
-                if (ingredient.IdRecipeIngredientsRecipe == id)
-                    listreturn.Add(ingredient);
-            }
+            //foreach (var ingredient in list)
+            //{
+            //    if (ingredient.idrecipe == id)
+            //        listreturn.Add(ingredient);
+            //}
 
-            return listreturn;
+            return list;
         }
     }
 }

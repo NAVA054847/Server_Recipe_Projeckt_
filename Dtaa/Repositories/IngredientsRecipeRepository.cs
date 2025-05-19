@@ -1,6 +1,7 @@
 ﻿using Core.Entities;
 using Core.Repositories;
 using Microsoft.EntityFrameworkCore;
+//using Core.Repositories
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,25 +19,41 @@ namespace Data.Repositories
             _Context = context;
         }
 
-        //מה זה אומר ?? לטפל פה
-        //לבדוק אופציה של רשימה של מילונים
-        public void AddIngrediets(int id, List<int> ingredients)
-        {
-            //foreach (var ingredient in ingredients)
-            //{
-            //    IngredientsrecipeTable table = new IngredientsrecipeTable();
-            //    table.IdRecipeIngredientsRecipe = id;
-            //    table.IdIngredientsIngredientsRecipe = ingredient;
-            //    table.UnitsIngredientsRecipe = "1";
 
-            //    _Context.IngredientsrecipeTables.Add(table);
-            //}
+        public void AddIngrediets(int id, List<Dictionary<int, string>> ingredients)
+        {
+
+            foreach (var dictionary in ingredients)
+            {
+
+                foreach (var ingr in dictionary)
+                {
+
+                    IngredientsrecipeTable ingredients1 = new IngredientsrecipeTable();
+                    ingredients1.IdRecipeIngredientsRecipe = id;
+                    ingredients1.IdIngredientsIngredientsRecipe = ingr.Key;
+                    ingredients1.UnitsIngredientsRecipe = ingr.Value;
+                    _Context.IngredientsrecipeTables.Add(ingredients1);
+                    _Context.SaveChanges();
+
+                }
+            }
+
 
         }
 
-        public List<IngredientsrecipeTable> GetIngredientsByRecipeId(int id)
+        public List<object> GetIngredientsByRecipeId(int id)
         {
-            return _Context.IngredientsrecipeTables.ToList();
+            return _Context.IngredientsrecipeTables.
+                Where(ir=>ir.IdRecipeIngredientsRecipe==id)
+          .Include(ir => ir.IdIngredientsIngredientsRecipeNavigation)
+           .Select(ir => new 
+           {
+               Name = ir.IdIngredientsIngredientsRecipeNavigation.NameIngredients,
+               Units = ir.UnitsIngredientsRecipe,
+           })
+           .ToList<object>();
+
         }
     }
 }

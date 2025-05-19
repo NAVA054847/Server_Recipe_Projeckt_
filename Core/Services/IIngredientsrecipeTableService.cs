@@ -10,8 +10,8 @@ namespace Core.Services
     public interface IIngredientsrecipeTableService
     {
 
-        List<IngredientsrecipeTable> GetIngredientsByRecipeId(int id);
+        List<object> GetIngredientsByRecipeId(int id);
 
-        void AddIngrediets(int id, List<int> ingredients);
+        public void AddIngrediets(int id, List<Dictionary<int, string>> ingredients);
     }
 }

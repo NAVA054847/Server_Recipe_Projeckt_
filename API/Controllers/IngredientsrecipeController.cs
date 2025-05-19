@@ -21,8 +21,8 @@ namespace API.Controllers
 
 
         // GET: api/<IngredientsrecipeController>
-        [HttpGet ("GetingredientByRecipeId {id}")]
-        public List<IngredientsrecipeTable> GetingredientByRecipeId(int id)
+        [HttpGet ("{id}")]
+        public List<object> GetingredientByRecipeId(int id)
         {
             return _ingredientsrecipeTableService.GetIngredientsByRecipeId(id);
         }
@@ -42,9 +42,10 @@ namespace API.Controllers
 
 
         // POST api/<IngredientsrecipeController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("AddIngredients")]
+        public void Post(int id, List<Dictionary<int, string>> ingredients)
         {
+            _ingredientsrecipeTableService.AddIngrediets(id, ingredients);
         }
 
         //// PUT api/<IngredientsrecipeController>/5
