@@ -27,18 +27,8 @@ namespace API.Controllers
             return _ingredientsrecipeTableService.GetIngredientsByRecipeId(id);
         }
 
-        //// GET api/<IngredientsrecipeController>/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
+     
 
-
-
-        ////
-        //לטפל בפונקציה הזאת
-        ///
 
 
         // POST api/<IngredientsrecipeController>
@@ -48,16 +38,6 @@ namespace API.Controllers
             _ingredientsrecipeTableService.AddIngrediets(id, ingredients);
         }
 
-        //// PUT api/<IngredientsrecipeController>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
-
-        //// DELETE api/<IngredientsrecipeController>/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
+       
     }
 }

@@ -21,7 +21,7 @@ namespace API.Controllers
 
 
         // GET: api/<IngredientsController>
-        [HttpGet("GetAll")]
+        [HttpGet]
         public List<IngredientsTable> Get()
         {
             return _ingredientsService.GetAllIngredients();
