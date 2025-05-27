@@ -18,10 +18,11 @@ namespace Data.Repositories
             _context = context;
         }
 
-        public void AddRecipe(RecipeTable recipe)
+        public int AddRecipe(RecipeTable recipe)
         {
             _context.RecipeTables.Add(recipe);
             _context.SaveChanges();
+            return recipe.IdRecipe;
         }
 
         public List<RecipeTable> GetAllRecipe()

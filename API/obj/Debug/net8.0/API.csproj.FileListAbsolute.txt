@@ -141,3 +141,4 @@ C:\Users\USER\Desktop\פרוייקטים\Server_Recipe_Projeckt_\API\bin\Debug\n
 C:\Users\USER\Desktop\פרוייקטים\Server_Recipe_Projeckt_\API\bin\Debug\net8.0\Service.dll
 C:\Users\USER\Desktop\פרוייקטים\Server_Recipe_Projeckt_\API\bin\Debug\net8.0\Data.pdb
 C:\Users\USER\Desktop\פרוייקטים\Server_Recipe_Projeckt_\API\bin\Debug\net8.0\Service.pdb
+C:\Users\USER\Desktop\פרוייקטים\Server_Recipe_Projeckt_\API\bin\Debug\net8.0\API.staticwebassets.runtime.json

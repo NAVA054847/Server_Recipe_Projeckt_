@@ -12,6 +12,6 @@ namespace Core.Repositories
 
         List<object> GetIngredientsByRecipeId(int id);
 
-        public void AddIngrediets(int id, List<Dictionary<int, string>> ingredients);
+        public void AddIngrediets(int id, List<NewIngredientRecipe> ingredients);
     }
 }

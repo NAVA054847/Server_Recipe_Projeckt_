@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "bUm1vPqwZHJejLhtNIB7WgmMI8ngxypkYrDApg4MvgQ=",
+  "Hash": "auQ6Sx5zEql4vHBBZBANeUr44ebjXnDGGf2e+xBdYJA=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "API\\wwwroot",
+      "Source": "API",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\API\\wwwroot\\img\\highcake.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "img/highcake.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\highcake.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\API\\wwwroot\\img\\unicorncake.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "img/unicorncake.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\unicorncake.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\API\\wwwroot\\img\\עוגת יומולדת.jpg",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\API\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "img/עוגת יומולדת.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\עוגת יומולדת.jpg"
+    }
+  ]
 }

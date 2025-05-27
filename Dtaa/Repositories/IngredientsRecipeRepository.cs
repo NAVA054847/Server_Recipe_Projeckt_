@@ -20,34 +20,25 @@ namespace Data.Repositories
         }
 
 
-        public void AddIngrediets(int id, List<Dictionary<int, string>> ingredients)
+        public void AddIngrediets(int id, List<NewIngredientRecipe> ingredients)
         {
-
-            foreach (var dictionary in ingredients)
+            foreach (var ingredient in ingredients)
             {
-
-                foreach (var ingr in dictionary)
-                {
-
-                    IngredientsrecipeTable ingredients1 = new IngredientsrecipeTable();
-                    ingredients1.IdRecipeIngredientsRecipe = id;
-                    ingredients1.IdIngredientsIngredientsRecipe = ingr.Key;
-                    ingredients1.UnitsIngredientsRecipe = ingr.Value;
-                    _Context.IngredientsrecipeTables.Add(ingredients1);
-                    _Context.SaveChanges();
-
-                }
+                IngredientsrecipeTable ingredients1 = new IngredientsrecipeTable();
+                ingredients1.IdRecipeIngredientsRecipe = id;
+                ingredients1.IdIngredientsIngredientsRecipe = ingredient.Id; // שינוי כאן
+                ingredients1.UnitsIngredientsRecipe = ingredient.Unit;     // שינוי כאן
+                _Context.IngredientsrecipeTables.Add(ingredients1);
             }
-
-
+            _Context.SaveChanges(); // העברנו את ה-SaveChanges מחוץ ללולאה
         }
 
         public List<object> GetIngredientsByRecipeId(int id)
         {
             return _Context.IngredientsrecipeTables.
-                Where(ir=>ir.IdRecipeIngredientsRecipe==id)
+                Where(ir => ir.IdRecipeIngredientsRecipe == id)
           .Include(ir => ir.IdIngredientsIngredientsRecipeNavigation)
-           .Select(ir => new 
+           .Select(ir => new
            {
                Name = ir.IdIngredientsIngredientsRecipeNavigation.NameIngredients,
                Units = ir.UnitsIngredientsRecipe,

@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\API\\wwwroot\\img\\highcake.jpg",
+      "PackagePath": "staticwebassets\\img\\highcake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\API\\wwwroot\\img\\unicorncake.jpg",
+      "PackagePath": "staticwebassets\\img\\unicorncake.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\פרוייקטים\\Server_Recipe_Projeckt_\\API\\wwwroot\\img\\עוגת יומולדת.jpg",
+      "PackagePath": "staticwebassets\\img\\עוגת יומולדת.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -11,6 +11,6 @@ namespace Core.Repositories
     {
         List<RecipeTable> GetAllRecipe();
         RecipeTable GetRecipeById(int id);
-        void AddRecipe(RecipeTable recipe);
+        int AddRecipe(RecipeTable recipe);
     }
 }

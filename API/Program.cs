@@ -82,4 +82,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+//בשביל התמונות
+app.UseStaticFiles();
+
 app.Run();

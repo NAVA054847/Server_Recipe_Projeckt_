@@ -19,7 +19,7 @@ namespace Service
         }
 
         
-        public void AddIngrediets(int id, List<Dictionary<int, string>> ingredients)
+        public void AddIngrediets(int id, List<NewIngredientRecipe> ingredients)
         {
            _ingredientsrecipeTableRepository.AddIngrediets(id,ingredients);
 

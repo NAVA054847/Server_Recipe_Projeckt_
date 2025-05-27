@@ -40,9 +40,9 @@ namespace API.Controllers
 
         // POST api/<RecipeController>
         [HttpPost]
-        public void Post([FromBody] RecipeTable recipe)
+        public int Post([FromBody] RecipeTable recipe)
         {
-            _recipeService.AddRecipe(recipe) ;
+           return _recipeService.AddRecipe(recipe) ;
         }
 
         //// PUT api/<RecipeController>/5

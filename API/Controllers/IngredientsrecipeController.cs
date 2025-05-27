@@ -32,8 +32,8 @@ namespace API.Controllers
 
 
         // POST api/<IngredientsrecipeController>
-        [HttpPost("AddIngredients")]
-        public void Post(int id, List<Dictionary<int, string>> ingredients)
+        [HttpPost("{id}")]
+        public void Post(int id, [FromBody] List<NewIngredientRecipe> ingredients)
         {
             _ingredientsrecipeTableService.AddIngrediets(id, ingredients);
         }

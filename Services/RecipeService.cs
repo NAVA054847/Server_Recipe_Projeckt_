@@ -20,9 +20,9 @@ namespace Service
         }
 
 
-        public void AddRecipe(RecipeTable recipe)
+        public int AddRecipe(RecipeTable recipe)
         {
-           _recipeRepository.AddRecipe(recipe);
+         return  _recipeRepository.AddRecipe(recipe);
         }
 
         public List<RecipeTable> GetAllRecipe()
